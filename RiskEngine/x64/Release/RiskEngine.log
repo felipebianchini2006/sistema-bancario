@@ -1,0 +1,7 @@
+﻿  RiskEngine.cpp
+     Creating library C:\projetos\sistema-bancario-educacional\BankApi\RiskEngine\x64\Release\RiskEngine.lib and object C:\projetos\sistema-bancario-educacional\BankApi\RiskEngine\x64\Release\RiskEngine.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  RiskEngine.vcxproj -> C:\projetos\sistema-bancario-educacional\BankApi\RiskEngine\x64\Release\RiskEngine.dll

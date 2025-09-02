@@ -57,3 +57,4 @@ C:\projetos\sistema-bancario-educacional\BankApi\obj\Debug\net9.0\BankApi.pdb
 C:\projetos\sistema-bancario-educacional\BankApi\obj\Debug\net9.0\BankApi.genruntimeconfig.cache
 C:\projetos\sistema-bancario-educacional\BankApi\obj\Debug\net9.0\ref\BankApi.dll
 C:\projetos\sistema-bancario-educacional\BankApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\projetos\sistema-bancario-educacional\BankApi\obj\Debug\net9.0\BankApi.sourcelink.json

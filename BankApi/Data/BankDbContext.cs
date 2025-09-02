@@ -56,9 +56,10 @@ public class BankDbContext : DbContext
             e.Property(x => x.Type)
              .HasConversion<string>()
              .HasColumnName("type")
-             .HasColumnType("text");
-
-
+             .HasColumnType("text"); 
+            e.Property(x => x.Amount).HasColumnName("amount");
+            e.Property(x => x.Description).HasColumnName("description");
+            e.Property(x => x.CreatedAt).HasColumnName("created_at");
             e.HasOne(x => x.Account)
              .WithMany()
              .HasForeignKey(x => x.AccountId)
