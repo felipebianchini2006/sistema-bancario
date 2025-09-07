@@ -8,6 +8,10 @@ using Microsoft.OpenApi.Models;
 using Npgsql;
 using System.Text;
 using System.Text.Json.Serialization;
+using System.Runtime.InteropServices;
+
+var baseDir = AppContext.BaseDirectory;
+NativeLibrary.Load(Path.Combine(baseDir, "RiskEngine.dll"));
 
 var builder = WebApplication.CreateBuilder(args);
 var cfg = builder.Configuration;
@@ -48,6 +52,7 @@ builder.Services.AddControllers().AddJsonOptions(o =>
 });
 
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSingleton<RiskService>();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "BankApi", Version = "v1" });

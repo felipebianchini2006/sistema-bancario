@@ -3,7 +3,30 @@
   "WorkspaceRootPath": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|c:\\projetos\\sistema-bancario-educacional\\bankapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|c:\\projetos\\sistema-bancario-educacional\\bankapi\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|solutionrelative:controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|c:\\projetos\\sistema-bancario-educacional\\bankapi\\services\\riskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|solutionrelative:services\\riskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5112896E-6790-43EF-82E4-32DCB754B402}|..\\RiskEngine\\RiskEngine.vcxproj|C:\\projetos\\sistema-bancario-educacional\\RiskEngine\\RiskEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|c:\\projetos\\sistema-bancario-educacional\\bankapi\\services\\riskinterop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|solutionrelative:services\\riskinterop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|c:\\projetos\\sistema-bancario-educacional\\bankapi\\controllers\\riskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|solutionrelative:controllers\\riskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5112896E-6790-43EF-82E4-32DCB754B402}|..\\RiskEngine\\RiskEngine.vcxproj|C:\\projetos\\sistema-bancario-educacional\\RiskEngine\\RiskEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -19,10 +42,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|c:\\projetos\\sistema-bancario-educacional\\bankapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|solutionrelative:controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|c:\\projetos\\sistema-bancario-educacional\\bankapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D74ADB5A-2F0F-F809-DF57-5F5BEAFF4C57}|BankApi.csproj|c:\\projetos\\sistema-bancario-educacional\\bankapi\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -80,15 +99,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoansController.cs",
+              "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\LoansController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoansController.cs",
+              "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\LoansController.cs",
+              "RelativeToolTip": "Controllers\\LoansController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T17:08:34.77Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "RiskService.cs",
+              "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Services\\RiskService.cs",
+              "RelativeDocumentMoniker": "Services\\RiskService.cs",
+              "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Services\\RiskService.cs",
+              "RelativeToolTip": "Services\\RiskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T17:08:21.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAPwUAAAAAAAAAAAcwBEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-07T16:04:14.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RiskController.cs",
+              "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\RiskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RiskController.cs",
+              "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\RiskController.cs",
+              "RelativeToolTip": "Controllers\\RiskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T16:02:24.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RiskInterop.cs",
+              "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Services\\RiskInterop.cs",
+              "RelativeDocumentMoniker": "Services\\RiskInterop.cs",
+              "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Services\\RiskInterop.cs",
+              "RelativeToolTip": "Services\\RiskInterop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T16:02:00.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RiskEngine.cpp",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\RiskEngine\\RiskEngine.cpp",
               "RelativeDocumentMoniker": "..\\RiskEngine\\RiskEngine.cpp",
@@ -101,33 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RiskEngine.h",
-              "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\RiskEngine\\RiskEngine.h",
-              "RelativeDocumentMoniker": "..\\RiskEngine\\RiskEngine.h",
-              "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\RiskEngine\\RiskEngine.h",
-              "RelativeToolTip": "..\\RiskEngine\\RiskEngine.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-02T15:01:24.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TransactionsController.cs",
-              "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\TransactionsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TransactionsController.cs",
-              "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\TransactionsController.cs",
-              "RelativeToolTip": "Controllers\\TransactionsController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wB8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T02:16:09.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "TransactionDtos.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Dto\\TransactionDtos.cs",
               "RelativeDocumentMoniker": "Dto\\TransactionDtos.cs",
@@ -139,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "AccountDtos.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Dto\\AccountDtos.cs",
               "RelativeDocumentMoniker": "Dto\\AccountDtos.cs",
@@ -151,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -163,7 +217,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:25:36.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Services\\JwtService.cs",
@@ -175,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "AuthDtos.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Dto\\AuthDtos.cs",
               "RelativeDocumentMoniker": "Dto\\AuthDtos.cs",
@@ -187,7 +258,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T02:16:09.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -199,30 +282,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "BankApi",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\BankApi.csproj",
               "RelativeDocumentMoniker": "BankApi.csproj",
               "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\BankApi.csproj",
               "RelativeToolTip": "BankApi.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-02T01:49:26.284Z"
+              "WhenOpened": "2025-09-02T01:49:26.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAQwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T01:25:36.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "BankDbContext.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Data\\BankDbContext.cs",
               "RelativeDocumentMoniker": "Data\\BankDbContext.cs",
@@ -230,12 +302,11 @@
               "RelativeToolTip": "Data\\BankDbContext.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAcwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T01:25:12.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T01:25:12.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -243,12 +314,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-02T01:23:23.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T01:23:23.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountsController.cs",
@@ -260,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "TransactionRecord.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Models\\TransactionRecord.cs",
               "RelativeDocumentMoniker": "Models\\TransactionRecord.cs",
@@ -272,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Models\\Account.cs",
               "RelativeDocumentMoniker": "Models\\Account.cs",
@@ -284,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -296,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "HealthController.cs",
               "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\BankApi\\Controllers\\HealthController.cs",
               "RelativeDocumentMoniker": "Controllers\\HealthController.cs",
@@ -305,6 +375,18 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T01:53:48.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RiskEngine.h",
+              "DocumentMoniker": "C:\\projetos\\sistema-bancario-educacional\\RiskEngine\\RiskEngine.h",
+              "RelativeDocumentMoniker": "..\\RiskEngine\\RiskEngine.h",
+              "ToolTip": "C:\\projetos\\sistema-bancario-educacional\\RiskEngine\\RiskEngine.h",
+              "RelativeToolTip": "..\\RiskEngine\\RiskEngine.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-02T15:01:24.408Z"
             }
           ]
         }

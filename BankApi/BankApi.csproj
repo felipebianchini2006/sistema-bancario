@@ -4,9 +4,15 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Forçar 64 bits -->
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8" />
@@ -14,5 +20,18 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
     <PackageReference Include="System.Text.Json" Version="9.0.8" />
   </ItemGroup>
+
+  <!-- Copiar a DLL nativa RiskEngine.dll para a saída da API -->
+  <Target Name="CopyNativeBinaries" AfterTargets="Build">
+    <!-- Caminho 1: caso a DLL seja gerada dentro de BankApi\x64\Conf -->
+    <ItemGroup>
+      <_NativeCand Include="$(ProjectDir)x64\$(Configuration)\RiskEngine.dll"
+                   Condition="Exists('$(ProjectDir)x64\$(Configuration)\RiskEngine.dll')" />
+      <!-- Caminho 2: caso a DLL seja gerada em RiskEngine\x64\Conf -->
+      <_NativeCand Include="$(SolutionDir)RiskEngine\x64\$(Configuration)\RiskEngine.dll"
+                   Condition="Exists('$(SolutionDir)RiskEngine\x64\$(Configuration)\RiskEngine.dll')" />
+    </ItemGroup>
+    <Copy SourceFiles="@(_NativeCand)" DestinationFolder="$(OutDir)" SkipUnchangedFiles="true" />
+  </Target>
 
 </Project>

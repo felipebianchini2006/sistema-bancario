@@ -58,3 +58,4 @@ C:\projetos\sistema-bancario-educacional\BankApi\obj\Release\net9.0\refint\BankA
 C:\projetos\sistema-bancario-educacional\BankApi\obj\Release\net9.0\BankApi.pdb
 C:\projetos\sistema-bancario-educacional\BankApi\obj\Release\net9.0\BankApi.genruntimeconfig.cache
 C:\projetos\sistema-bancario-educacional\BankApi\obj\Release\net9.0\ref\BankApi.dll
+C:\projetos\sistema-bancario-educacional\BankApi\bin\Release\net9.0\RiskEngine\x64\Release\RiskEngine.dll

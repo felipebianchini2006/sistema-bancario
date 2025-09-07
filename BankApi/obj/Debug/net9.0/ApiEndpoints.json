@@ -114,6 +114,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BankApi.Controllers.RiskController",
+    "Method": "GetScore",
+    "RelativePath": "risk/score",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "income",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "balance",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "late",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BankApi.Controllers.TransactionsController",
     "Method": "Create",
     "RelativePath": "transactions",

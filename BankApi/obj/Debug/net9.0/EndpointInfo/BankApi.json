@@ -202,6 +202,45 @@
         }
       }
     },
+    "/risk/score": {
+      "get": {
+        "tags": [
+          "Risk"
+        ],
+        "parameters": [
+          {
+            "name": "income",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "balance",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "late",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/transactions": {
       "post": {
         "tags": [
