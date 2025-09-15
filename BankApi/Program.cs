@@ -53,6 +53,7 @@ builder.Services.AddControllers().AddJsonOptions(o =>
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSingleton<RiskService>();
+builder.Services.AddScoped<LoanDecisionService>();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "BankApi", Version = "v1" });

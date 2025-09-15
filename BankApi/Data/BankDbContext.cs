@@ -10,6 +10,7 @@ public class BankDbContext : DbContext
     public DbSet<User> Users => Set<User>();
     public DbSet<Account> Accounts => Set<Account>();
     public DbSet<TransactionRecord> Transactions => Set<TransactionRecord>();
+    public DbSet<LoanApplication> LoanApplications => Set<LoanApplication>();
 
     protected override void OnModelCreating(ModelBuilder b)
     {
